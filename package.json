@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^10.0.15",
+    "chroma-js": "^2.0.4",
+    "emotion-theming": "^10.0.14",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -11,7 +14,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "chromatic": "CHROMATIC_APP_CODE=lijbiu01muf chromatic test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +34,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.1.10",
+    "@storybook/addon-links": "^5.1.10",
+    "@storybook/addon-storyshots": "^5.1.10",
+    "@storybook/addons": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "babel-plugin-macros": "^2.6.1",
+    "jest-emotion": "^10.0.14",
+    "react-test-renderer": "^16.8.6",
+    "require-context.macro": "^1.1.0",
+    "source-map-explorer": "^2.0.1",
+    "storybook-chromatic": "^2.1.0"
   }
 }
