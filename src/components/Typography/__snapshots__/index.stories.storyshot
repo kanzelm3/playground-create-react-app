@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components|Typography colors 1`] = `
+Array [
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    initial
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: inherit;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    inherit
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: rgba(0,0,0,0.87);
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    textPrimary
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: rgba(0,0,0,0.54);
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    textSecondary
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: #6200ee;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    primary
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: #03dac6;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    secondary
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: #66bb6a;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    accent
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  color: #b00020;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    error
+  </p>,
+]
+`;
+
+exports[`Storyshots Components|Typography variants 1`] = `
+Array [
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+  line-height: 1;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  margin-bottom: 0.35em;
+}
+
+<h2
+    className="emotion-0 emotion-1"
+  >
+    h1. Heading
+  </h2>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 3.75rem;
+  line-height: 1;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  margin-bottom: 0.35em;
+}
+
+<h2
+    className="emotion-0 emotion-1"
+  >
+    h2. Heading
+  </h2>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.04;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  margin-bottom: 0.35em;
+}
+
+<h3
+    className="emotion-0 emotion-1"
+  >
+    h3. Heading
+  </h3>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 2.125rem;
+  line-height: 1.17;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  margin-bottom: 0.35em;
+}
+
+<h4
+    className="emotion-0 emotion-1"
+  >
+    h4. Heading
+  </h4>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  margin-bottom: 0.35em;
+}
+
+<h5
+    className="emotion-0 emotion-1"
+  >
+    h5. Heading
+  </h5>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  margin-bottom: 0.35em;
+}
+
+<h6
+    className="emotion-0 emotion-1"
+  >
+    h6. Heading
+  </h6>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  margin-bottom: 0.35em;
+}
+
+<h6
+    className="emotion-0 emotion-1"
+  >
+    subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
+  </h6>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.57;
+  -webkit-letter-spacing: 0.00714em;
+  -moz-letter-spacing: 0.00714em;
+  -ms-letter-spacing: 0.00714em;
+  letter-spacing: 0.00714em;
+  margin-bottom: 0.35em;
+}
+
+<h6
+    className="emotion-0 emotion-1"
+  >
+    subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur
+  </h6>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  margin-bottom: 0.35em;
+}
+
+<p
+    className="emotion-0 emotion-1"
+  >
+    body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.
+  </p>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  -webkit-letter-spacing: 0.02857em;
+  -moz-letter-spacing: 0.02857em;
+  -ms-letter-spacing: 0.02857em;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  margin-bottom: 0.35em;
+  display: block;
+}
+
+<span
+    className="emotion-0 emotion-1"
+  >
+    button text
+  </span>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  margin-bottom: 0.35em;
+  display: block;
+}
+
+<span
+    className="emotion-0 emotion-1"
+  >
+    caption text
+  </span>,
+  .emotion-0 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 2.66;
+  -webkit-letter-spacing: 0.08333em;
+  -moz-letter-spacing: 0.08333em;
+  -ms-letter-spacing: 0.08333em;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+  margin-bottom: 0.35em;
+  display: block;
+}
+
+<span
+    className="emotion-0 emotion-1"
+  >
+    overline text
+  </span>,
+]
+`;
