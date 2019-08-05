@@ -1,27 +1,33 @@
 import React from 'react'
 import styled from '@emotion/styled/macro'
-import { Card as CardBase } from '../Card'
-import { CardContent } from '../CardContent'
 import { CardDivider } from '../CardDivider'
-import { CardMedia as CardMediaBase } from '../CardMedia'
 import { Typography } from '../Typography'
+import { Card, CardMedia, CardContent, CardPrice } from './styles'
 
-const Card = styled(CardBase)`
-  max-width: 345px;
+export const PlaceholderBackground = styled(CardMedia)`
+  background-image: url(/images/dark-tiles.jpg);
+  background-size: contain;
+  background-repeat: repeat;
 `
 
-const CardMedia = styled(CardMediaBase)`
-  height: 140px;
+export const Placeholder = styled.img`
+  width: 100%;
+  height: 100%;
+  padding: ${props => props.theme.spacing(2)}px;
+  object-fit: contain;
+  box-sizing: border-box;
 `
 
-const CardPrice = styled.div`
-  padding: ${props => props.theme.spacing(1)}px;
-`
-
-export const PriceCard = function PriceCard({ heading, subheading, price }) {
+export const PriceCard = function PriceCard({ image: imageProp, heading, subheading, price }) {
   return (
     <Card>
-      <CardMedia image="/images/bridge.jpg" title="Golden Gate Bridge" />
+      {imageProp ? (
+        <CardMedia image={imageProp} title="Golden Gate Bridge" />
+      ) : (
+        <PlaceholderBackground>
+          <Placeholder alt="test" src="/images/placeholder.png" />
+        </PlaceholderBackground>
+      )}
       <CardContent>
         <Typography gutterBottom variant="h5" component="h2">
           {heading}
@@ -39,3 +45,5 @@ export const PriceCard = function PriceCard({ heading, subheading, price }) {
     </Card>
   )
 }
+
+export default PriceCard

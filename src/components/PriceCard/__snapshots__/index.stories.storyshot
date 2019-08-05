@@ -1,7 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components|PriceCard component 1`] = `
-.emotion-17 {
+exports[`Storyshots Components|PriceCard default 1`] = `
+.emotion-5 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  margin-bottom: 0.35em;
+}
+
+.emotion-7 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  color: rgba(0,0,0,0.54);
+}
+
+.emotion-12 {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  height: 2px;
+  background: #ddd;
+}
+
+.emotion-20 {
   background-color: #fff;
   color: rgba(0,0,0,0.87);
   -webkit-transition: box-shadow 300ms cubic-bezier(0.4,0,0.2,1) 0ms;
@@ -9,17 +42,107 @@ exports[`Storyshots Components|PriceCard component 1`] = `
   border-radius: 4px;
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
   overflow: hidden;
-  max-width: 345px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
-.emotion-7 {
+.emotion-10 {
   padding: 16px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
-.emotion-7:last-child {
+.emotion-10:last-child {
   padding-bottom: 24px;
 }
 
+.emotion-16 {
+  padding: 8px;
+}
+
+.emotion-3 {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 160px;
+  background-color: rgba(0,0,0,0.15);
+  background-image: url(/images/dark-tiles.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.emotion-0 {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+.emotion-14 {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  color: #66bb6a;
+  text-align: right;
+}
+
+<div
+  className="emotion-18 emotion-19 emotion-20 emotion-21"
+  elevation={1}
+>
+  <div
+    className="emotion-2 emotion-3 emotion-4"
+  >
+    <img
+      alt="test"
+      className="emotion-0 emotion-1"
+      src="/images/placeholder.png"
+    />
+  </div>
+  <div
+    className="emotion-9 emotion-10 emotion-11"
+  >
+    <h2
+      className="emotion-5 emotion-6"
+    >
+      Golden Gate Bridge
+    </h2>
+    <p
+      className="emotion-7 emotion-6"
+    >
+      The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.
+    </p>
+  </div>
+  <div
+    className="emotion-12 emotion-13"
+  />
+  <div
+    className="emotion-16 emotion-17"
+  >
+    <p
+      className="emotion-14 emotion-6"
+    >
+      $22,000
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components|PriceCard with image 1`] = `
 .emotion-3 {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
@@ -46,26 +169,55 @@ exports[`Storyshots Components|PriceCard component 1`] = `
   color: rgba(0,0,0,0.54);
 }
 
-.emotion-1 {
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 140px;
-}
-
-.emotion-9 {
+.emotion-10 {
   width: calc(100% - 32px);
   margin: 0 auto;
   height: 2px;
   background: #ddd;
 }
 
-.emotion-13 {
+.emotion-18 {
+  background-color: #fff;
+  color: rgba(0,0,0,0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4,0,0.2,1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-1 {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 160px;
+  background-color: rgba(0,0,0,0.15);
+}
+
+.emotion-8 {
+  padding: 16px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-8:last-child {
+  padding-bottom: 24px;
+}
+
+.emotion-14 {
   padding: 8px;
 }
 
-.emotion-11 {
+.emotion-12 {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -80,7 +232,7 @@ exports[`Storyshots Components|PriceCard component 1`] = `
 }
 
 <div
-  className="emotion-15 emotion-16 emotion-17 emotion-18"
+  className="emotion-16 emotion-17 emotion-18 emotion-19"
   elevation={1}
 >
   <div
@@ -93,7 +245,7 @@ exports[`Storyshots Components|PriceCard component 1`] = `
     title="Golden Gate Bridge"
   />
   <div
-    className="emotion-7 emotion-8"
+    className="emotion-7 emotion-8 emotion-9"
   >
     <h2
       className="emotion-3 emotion-4"
@@ -107,13 +259,13 @@ exports[`Storyshots Components|PriceCard component 1`] = `
     </p>
   </div>
   <div
-    className="emotion-9 emotion-10"
+    className="emotion-10 emotion-11"
   />
   <div
-    className="emotion-13 emotion-14"
+    className="emotion-14 emotion-15"
   >
     <p
-      className="emotion-11 emotion-4"
+      className="emotion-12 emotion-4"
     >
       $22,000
     </p>
