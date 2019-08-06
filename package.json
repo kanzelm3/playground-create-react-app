@@ -19,14 +19,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snapshot",
+    "postbuild": "react-snapshot && rm build/index.html && yarn build-sw",
     "deploy": "firebase deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "chromatic": "CHROMATIC_APP_CODE=lijbiu01muf chromatic test"
+    "chromatic": "CHROMATIC_APP_CODE=lijbiu01muf chromatic test",
+    "build-sw": "workbox injectManifest ./workbox-config.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -64,6 +65,7 @@
     "react-test-renderer": "^16.8.6",
     "require-context.macro": "^1.1.0",
     "source-map-explorer": "^2.0.1",
-    "storybook-chromatic": "^2.1.0"
+    "storybook-chromatic": "^2.1.0",
+    "workbox-cli": "^4.3.1"
   }
 }
