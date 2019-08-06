@@ -23,7 +23,7 @@ export default {
       contrastText: '#fff'
     },
     error: '#b00020',
-    accent: '#66bb6a',
+    accent: '#2e7d32',
     text: {
       primary: 'rgba(0, 0, 0, 0.87)',
       secondary: 'rgba(0, 0, 0, 0.54)',

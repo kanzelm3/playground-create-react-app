@@ -96,7 +96,7 @@ exports[`Storyshots Components|PriceCard default 1`] = `
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
-  color: #66bb6a;
+  color: #2e7d32;
   text-align: right;
 }
 
@@ -227,7 +227,7 @@ exports[`Storyshots Components|PriceCard with image 1`] = `
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
-  color: #66bb6a;
+  color: #2e7d32;
   text-align: right;
 }
 

@@ -9,14 +9,20 @@ import Typography from '../../components/Typography'
 const Nav = styled.section`
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
 `
 
 const NavLinks = styled.nav`
   flex: 1;
-  margin: ${props => props.theme.spacing(2)}px ${props => props.theme.spacing(4)}px;
+  margin: ${props => props.theme.spacing(2)}px 0;
   & > *:not(:last-child) {
     margin-right: ${props => props.theme.spacing(2)}px;
   }
+`
+
+const Title = styled(Typography)`
+  margin-right: ${props => props.theme.spacing(4)}px;
 `
 
 function Prices({ match }) {
@@ -26,7 +32,7 @@ function Prices({ match }) {
   return (
     <>
       <Nav>
-        <Typography variant="h4">Price List</Typography>
+        <Title variant="h4">Price List</Title>
         <NavLinks>
           <Button component={Link} to={viewAllPath} size="small">
             View All

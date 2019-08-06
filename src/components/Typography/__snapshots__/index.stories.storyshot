@@ -125,7 +125,7 @@ Array [
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
-  color: #66bb6a;
+  color: #2e7d32;
   margin-bottom: 0.35em;
 }
 

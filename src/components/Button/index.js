@@ -5,6 +5,7 @@ import chroma from 'chroma-js'
 
 const ButtonBase = styled.button`
   border: none;
+  outline: 0;
   margin: 0;
   width: auto;
   overflow: visible;
@@ -13,11 +14,19 @@ const ButtonBase = styled.button`
   font: inherit;
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
+  -moz-appearance: none;
   -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
   ${props => props.theme.typography.button}
   box-sizing: border-box;
   min-width: 64px;
   padding: 6px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
   border-radius: ${props => props.theme.shape.borderRadius}px;
   color: ${props => props.theme.palette.text.primary};
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
@@ -165,6 +174,8 @@ const ButtonBase = styled.button`
   }
   &:disabled {
     background-color: rgba(0, 0, 0, 0.26);
+    pointer-events: none;
+    cursor: default;
   }
 `
 

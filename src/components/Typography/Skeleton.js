@@ -74,7 +74,7 @@ const Skeleton = styled.div`
     background: ${props => {
       if (props.accent)
         return chroma(props.theme.palette.accent)
-          .alpha(0.5)
+          .alpha(0.35)
           .css()
       return HEADER_VARIANTS.includes(props.variant) ? 'rgba(0,0,0,0.25)' : 'rgba(0,0,0,0.15)'
     }};

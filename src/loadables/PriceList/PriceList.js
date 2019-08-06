@@ -17,7 +17,7 @@ export const ListItemsResource = createResource(delay => {
 export const PriceList = React.forwardRef(function PriceList(props, ref) {
   const { itemsPerRow } = props
   // simulate fetch from server
-  const listItems = ListItemsResource.read(2000)
+  const listItems = ListItemsResource.read(1000)
 
   /* list sorting */
   const [orderedListItems, orderByProps] = useOrderBy(listItems, 'Heading')
@@ -38,14 +38,26 @@ export const PriceList = React.forwardRef(function PriceList(props, ref) {
   return (
     <>
       <Controls>
-        <select value={sortKey} onChange={event => setSortKey(event.target.value)}>
+        <select
+          aria-label="Sort by"
+          value={sortKey}
+          onChange={event => setSortKey(event.target.value)}
+        >
           <option value="Heading">Heading</option>
           <option value="Subheading">Subheading</option>
           <option value="Price">Price</option>
         </select>
-        <select value={sortOrder} onChange={event => setSortOrder(event.target.value)}>
-          <option value={SORT_ORDER_ASC}>&darr;</option>
-          <option value={SORT_ORDER_DESC}>&uarr;</option>
+        <select
+          aria-label="Sort order"
+          value={sortOrder}
+          onChange={event => setSortOrder(event.target.value)}
+        >
+          <option aria-label="Ascending" value={SORT_ORDER_ASC}>
+            &darr;
+          </option>
+          <option aria-label="Descending" value={SORT_ORDER_DESC}>
+            &uarr;
+          </option>
         </select>
       </Controls>
       <AnimatedCardGrid ref={ref} flipKey={flipKey}>

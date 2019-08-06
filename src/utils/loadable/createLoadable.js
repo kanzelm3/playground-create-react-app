@@ -15,7 +15,7 @@ function createLoadable(fetchComponent, FallbackComponent) {
 
   return React.forwardRef(function LoadableComponent(props, ref) {
     // Always show fallback when static rendering skeleton pages
-    if (navigator.userAgent.includes('Node.js')) return <Fallback {...props} />
+    if (navigator.userAgent.includes('Node.js')) return <Fallback ref={ref} {...props} />
     return (
       <React.Suspense fallback={<Fallback ref={ref} {...props} />}>
         <LazyComponent ref={ref} {...props} />
