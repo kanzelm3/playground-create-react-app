@@ -267,7 +267,7 @@ exports[`Storyshots Components|PriceCard with image 1`] = `
     <p
       className="emotion-12 emotion-4"
     >
-      $22,000
+      $23,000
     </p>
   </div>
 </div>

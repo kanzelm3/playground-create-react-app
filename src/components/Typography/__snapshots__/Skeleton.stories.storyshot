@@ -571,7 +571,6 @@ exports[`Storyshots Components|Typography/Skeleton variants 1`] = `
   -moz-letter-spacing: 0.02857em;
   -ms-letter-spacing: 0.02857em;
   letter-spacing: 0.02857em;
-  text-transform: uppercase;
   margin-bottom: 0.35em;
 }
 
@@ -751,7 +750,6 @@ exports[`Storyshots Components|Typography/Skeleton variants 1`] = `
   -moz-letter-spacing: 0.02857em;
   -ms-letter-spacing: 0.02857em;
   letter-spacing: 0.02857em;
-  text-transform: uppercase;
   margin-bottom: 0.35em;
   display: block;
 }

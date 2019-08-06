@@ -4,6 +4,13 @@ import { CardDivider } from '../CardDivider'
 import { Typography } from '../Typography'
 import { Card, CardMedia, CardContent, CardPrice } from './styles'
 
+const priceFormatter = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  minimumFractionDigits: 0,
+  maximumFractionDigits: 0
+})
+
 export const PlaceholderBackground = styled(CardMedia)`
   background-image: url(/images/dark-tiles.jpg);
   background-size: contain;
@@ -18,9 +25,15 @@ export const Placeholder = styled.img`
   box-sizing: border-box;
 `
 
-export const PriceCard = function PriceCard({ image: imageProp, heading, subheading, price }) {
+export const PriceCard = function PriceCard({
+  image: imageProp,
+  heading,
+  subheading,
+  price,
+  ...other
+}) {
   return (
-    <Card>
+    <Card {...other}>
       {imageProp ? (
         <CardMedia image={imageProp} title="Golden Gate Bridge" />
       ) : (
@@ -39,11 +52,11 @@ export const PriceCard = function PriceCard({ image: imageProp, heading, subhead
       <CardDivider />
       <CardPrice>
         <Typography variant="h6" color="accent" component="p" align="right">
-          {price}
+          {priceFormatter.format(price)}
         </Typography>
       </CardPrice>
     </Card>
   )
 }
 
-export default PriceCard
+export default React.memo(PriceCard)

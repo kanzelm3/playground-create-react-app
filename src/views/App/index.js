@@ -1,40 +1,41 @@
 import React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from 'emotion-theming'
 import { Global, css } from '@emotion/core'
 import { light } from '../../themes'
 import { LoadableProvider } from '../../utils/loadable'
 import Page from '../../components/Page'
-import PriceList from '../../loadables/PriceList'
+import PricesView from '../Prices'
 
 function App() {
   return (
-    <>
-      <Global
-        styles={css`
-          body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-              'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-          }
+    <ThemeProvider theme={light}>
+      <LoadableProvider>
+        <Page>
+          <Global
+            styles={css`
+              body {
+                margin: 0;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+              }
 
-          * {
-            box-sizing: border-box;
-          }
-        `}
-      />
-      <ThemeProvider theme={light}>
-        <LoadableProvider>
-          <Page>
-            <Router>
-              <Route exact path="/" component={PriceList} />
-            </Router>
-          </Page>
-        </LoadableProvider>
-      </ThemeProvider>
-    </>
+              * {
+                box-sizing: border-box;
+              }
+            `}
+          />
+          <Router>
+            <Switch>
+              <Route path="/prices" component={PricesView} />
+              <Redirect exact from="/" to="/prices" />
+            </Switch>
+          </Router>
+        </Page>
+      </LoadableProvider>
+    </ThemeProvider>
   )
 }
 

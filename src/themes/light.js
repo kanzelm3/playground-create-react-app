@@ -20,7 +20,7 @@ export default {
     secondary: {
       variant: '#018786',
       default: '#03dac6',
-      contrastText: '#000'
+      contrastText: '#fff'
     },
     error: '#b00020',
     accent: '#66bb6a',
@@ -29,7 +29,8 @@ export default {
       secondary: 'rgba(0, 0, 0, 0.54)',
       disabled: 'rgba(0, 0, 0, 0.38)',
       hint: 'rgba(0, 0, 0, 0.38)'
-    }
+    },
+    type: 'light'
   },
   shadows: [
     '0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)',
@@ -99,8 +100,7 @@ export default {
       fontWeight: 500,
       fontSize: '0.875rem',
       lineHeight: 1.75,
-      letterSpacing: '0.02857em',
-      textTransform: 'uppercase'
+      letterSpacing: '0.02857em'
     }),
     caption: typography({
       fontSize: '0.75rem',
