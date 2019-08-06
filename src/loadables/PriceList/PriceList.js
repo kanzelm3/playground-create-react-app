@@ -6,7 +6,7 @@ import Button from '../../components/Button'
 import PriceCard from '../../components/PriceCard'
 import useOrderBy, { SORT_ORDER_ASC, SORT_ORDER_DESC } from '../../hooks/useOrderBy'
 import mockItems from './mockItems.json'
-import { Controls } from './styles'
+import { Controls, Select } from './styles'
 
 export const ListItemsResource = createResource(delay => {
   return new Promise(resolve => {
@@ -38,7 +38,7 @@ export const PriceList = React.forwardRef(function PriceList(props, ref) {
   return (
     <>
       <Controls>
-        <select
+        <Select
           aria-label="Sort by"
           value={sortKey}
           onChange={event => setSortKey(event.target.value)}
@@ -46,8 +46,8 @@ export const PriceList = React.forwardRef(function PriceList(props, ref) {
           <option value="Heading">Heading</option>
           <option value="Subheading">Subheading</option>
           <option value="Price">Price</option>
-        </select>
-        <select
+        </Select>
+        <Select
           aria-label="Sort order"
           value={sortOrder}
           onChange={event => setSortOrder(event.target.value)}
@@ -58,7 +58,7 @@ export const PriceList = React.forwardRef(function PriceList(props, ref) {
           <option aria-label="Descending" value={SORT_ORDER_DESC}>
             &uarr;
           </option>
-        </select>
+        </Select>
       </Controls>
       <AnimatedCardGrid ref={ref} flipKey={flipKey}>
         {visibleListItems.map(({ Heading, Subheading, Price, showBridge }) => {

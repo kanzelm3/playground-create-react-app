@@ -2,7 +2,7 @@ import React from 'react'
 import times from 'lodash/times'
 import CardGrid from '../../components/CardGrid'
 import PriceCardSkeleton from '../../components/PriceCard/Skeleton'
-import { Controls } from './styles'
+import { Controls, Select } from './styles'
 
 const ITEM_COUNT = 5
 
@@ -10,12 +10,12 @@ export const PriceListSkeleton = React.forwardRef(function PriceListSkeleton(pro
   return (
     <>
       <Controls>
-        <select disabled>
+        <Select disabled>
           <option>Sort by...</option>
-        </select>
-        <select disabled>
+        </Select>
+        <Select disabled>
           <option>&darr;</option>
-        </select>
+        </Select>
       </Controls>
       <CardGrid ref={ref} {...props}>
         {times(ITEM_COUNT, i => (

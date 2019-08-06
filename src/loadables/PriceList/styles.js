@@ -8,3 +8,7 @@ export const Controls = styled.div`
     margin-right: ${props => props.theme.spacing(1)}px;
   }
 `
+
+export const Select = styled.select`
+  ${props => props.theme.typography.body1}
+`
