@@ -15,6 +15,5 @@ storiesOf('Components|PriceCard', module)
       heading="Golden Gate Bridge"
       subheading="The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean."
       price={23000}
-      image="/images/bridge.jpg"
     />
   ))

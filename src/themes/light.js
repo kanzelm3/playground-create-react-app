@@ -10,7 +10,7 @@ export default {
   palette: {
     background: {
       paper: '#fff',
-      default: '#aac4dc'
+      default: '#f6f6f6'
     },
     primary: {
       variant: '#3700b3',

@@ -43,9 +43,9 @@ export const PriceList = React.forwardRef(function PriceList(props, ref) {
           value={sortKey}
           onChange={event => setSortKey(event.target.value)}
         >
-          <option value="Heading">Heading</option>
-          <option value="Subheading">Subheading</option>
-          <option value="Price">Price</option>
+          <option value="title">Title</option>
+          <option value="subtitle">Subtitle</option>
+          <option value="price">Price</option>
         </Select>
         <Select
           aria-label="Sort order"
@@ -61,17 +61,9 @@ export const PriceList = React.forwardRef(function PriceList(props, ref) {
         </Select>
       </Controls>
       <AnimatedCardGrid ref={ref} flipKey={flipKey}>
-        {visibleListItems.map(({ Heading, Subheading, Price, showBridge }) => {
-          const itemKey = `${Heading}${Subheading}${Price}${showBridge ? 'bridge' : ''}`
-          return (
-            <PriceCard
-              key={itemKey}
-              heading={Heading}
-              subheading={Subheading}
-              price={Price}
-              image={showBridge ? '/images/bridge.jpg' : null}
-            />
-          )
+        {visibleListItems.map(({ title, subtitle, price }) => {
+          const itemKey = `${title}${subtitle}${price}`
+          return <PriceCard key={itemKey} heading={title} subheading={subtitle} price={price} />
         })}
       </AnimatedCardGrid>
       {showLoadMore && (

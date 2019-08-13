@@ -1,64 +1,62 @@
 [
   {
-    "Heading": "tempor do tempor",
-    "Subheading": "ipsum et",
-    "Price": 22000
+    "title": "tempor do tempor",
+    "subtitle": "ipsum et",
+    "price": 22000
   },
   {
-    "Heading": "lorem",
-    "Subheading": "do incididunt",
-    "Price": 33000
+    "title": "lorem",
+    "subtitle": "do incididunt",
+    "price": 33000
   },
   {
-    "Heading": "ut magna ipsum",
-    "Subheading": "labore sed",
-    "Price": 14000
+    "title": "ut magna ipsum",
+    "subtitle": "labore sed",
+    "price": 14000
   },
   {
-    "Heading": "lorem incididunt elit",
-    "Subheading": "aliqua ipsum",
-    "Price": 43000,
-    "showBridge": true
+    "title": "lorem incididunt elit",
+    "subtitle": "aliqua ipsum",
+    "price": 43000
   },
   {
-    "Heading": "adipiscing ipsum do et do elit eiusmod",
-    "Subheading": "et dolor",
-    "Price": 27000
+    "title": "adipiscing ipsum do et do elit eiusmod",
+    "subtitle": "et dolor",
+    "price": 27000
   },
   {
-    "Heading": "magna lorem",
-    "Subheading": "eisumod do",
-    "Price": 15000
+    "title": "magna lorem",
+    "subtitle": "eisumod do",
+    "price": 15000
   },
   {
-    "Heading": "ipsum",
-    "Subheading": "elit elit",
-    "Price": 43000
+    "title": "ipsum",
+    "subtitle": "elit elit",
+    "price": 43000
   },
   {
-    "Heading": "sed eiusmod",
-    "Subheading": "consectetur dolor",
-    "Price": 25000
+    "title": "sed eiusmod",
+    "subtitle": "consectetur dolor",
+    "price": 25000
   },
   {
-    "Heading": "labore eiusmod elit ipsum aliqua sit lore ipsum",
-    "Subheading": "aliqua sed",
-    "Price": 37000,
-    "showBridge": true
+    "title": "labore eiusmod elit ipsum aliqua sit lore ipsum",
+    "subtitle": "aliqua sed",
+    "price": 37000
   },
   {
-    "Heading": "aliqua ipsum sed ut elit",
-    "Subheading": "tempor aliqua",
-    "Price": 1000
+    "title": "aliqua ipsum sed ut elit",
+    "subtitle": "tempor aliqua",
+    "price": 1000
   },
   {
-    "Heading": "aliqua",
-    "Subheading": "elit ut",
-    "Price": 4000
+    "title": "aliqua",
+    "subtitle": "elit ut",
+    "price": 4000
   },
   {
-    "Heading": "amet adipiscing",
-    "Subheading": "eisumod sit",
-    "Price": 23000
+    "title": "amet adipiscing",
+    "subtitle": "eisumod sit",
+    "price": 23000
   }
 ]

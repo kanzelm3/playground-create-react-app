@@ -12,9 +12,7 @@ const priceFormatter = new Intl.NumberFormat('en-US', {
 })
 
 export const PlaceholderBackground = styled(CardMedia)`
-  background-image: url(/images/dark-tiles.jpg);
-  background-size: contain;
-  background-repeat: repeat;
+  background: ${props => props.theme.palette.background.default};
 `
 
 export const Placeholder = styled.img`
